@@ -1,0 +1,6 @@
+import { Sequelize } from "sequelize";
+
+const db = new Sequelize('postgresql://rest_api_node_typescript_9i4x_user:WY4mODP1mPDz8syj11LnTSWT4uNtydya@dpg-d112k5emcj7s739pll90-a.oregon-postgres.render.com/rest_api_node_typescript_9i4x?ssl=true')
+
+export default db
+
